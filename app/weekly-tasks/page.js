@@ -54,7 +54,7 @@ const weeklyTasks = [
       {
         lesson: 'Lesson 2',
         title: 'Bias Detector Poster',
-        description: 'Poster showing 3 signs of bias and 2 avoidance tips',
+        description: 'Poster showing 3 signs of bias and 2 tips to avoid it',
         type: 'poster',
         icon: Image
       }

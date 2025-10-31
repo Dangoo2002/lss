@@ -15,7 +15,7 @@ export default function About() {
             <div className="card">
               <h2 className="text-2xl font-semibold text-white mb-4">Who I Am</h2>
               <div className="space-y-4 text-gray-300">
-                <p>I am Sarah Al Mansoori, a dedicated Information Technology student at Higher Colleges of Technology. I am passionate about cybersecurity and software development.</p>
+                <p>I am Mohamed Alzaabi, a dedicated Information Technology student at Higher Colleges of Technology. I am passionate about cybersecurity and software development.</p>
                 <p>I enjoy solving complex problems, learning new programming languages, and staying updated with the latest technology trends. I believe in continuous learning and self-improvement.</p>
                 <p>I recognize the importance of developing both technical and soft skills to succeed in the rapidly evolving IT industry.</p>
               </div>

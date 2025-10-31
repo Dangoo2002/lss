@@ -27,7 +27,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-white">Email</h3>
-                    <p className="text-gray-300">s.al.mansoori@hct.ac.ae</p>
+                    <p className="text-gray-300">H00538223@hct.ac.ae</p>
                     <p className="text-gray-500 text-sm">HCT official email address</p>
                   </div>
                 </div>
@@ -60,11 +60,11 @@ export default function Contact() {
                 <div className="space-y-2 text-sm">
                   <div className="flex justify-between">
                     <span className="text-gray-400">Full Name:</span>
-                    <span className="font-medium text-white">Sarah Al Mansoori</span>
+                    <span className="font-medium text-white">Mohamed Alzaabi</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-gray-400">HCT ID:</span>
-                    <span className="font-medium text-white">H00345678</span>
+                    <span className="font-medium text-white">H00538223</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-gray-400">Course:</span>
@@ -72,7 +72,7 @@ export default function Contact() {
                   </div>
                   <div className="flex justify-between">
                     <span className="text-gray-400">CRN:</span>
-                    <span className="font-medium text-white">23456</span>
+                    <span className="font-medium text-white">13643</span>
                   </div>
                 </div>
               </div>
@@ -83,38 +83,54 @@ export default function Contact() {
               
               <form className="space-y-6">
                 <div>
+                  <label htmlFor="projectTitle" className="block text-sm font-medium text-white mb-2">
+                    Project Title *
+                  </label>
+                  <input
+                    type="text"
+                    id="projectTitle"
+                    className="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-white"
+                    placeholder="Enter project title"
+                    required
+                  />
+                </div>
+                
+                <div>
                   <label htmlFor="name" className="block text-sm font-medium text-white mb-2">
-                    Your Name
+                    Your Name *
                   </label>
                   <input
                     type="text"
                     id="name"
                     className="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-white"
                     placeholder="Enter your name"
+                    required
+                  />
+                </div>
+                
+                <div>
+                  <label htmlFor="studentId" className="block text-sm font-medium text-white mb-2">
+                    Student ID *
+                  </label>
+                  <input
+                    type="text"
+                    id="studentId"
+                    className="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-white"
+                    placeholder="Enter your student ID"
+                    required
                   />
                 </div>
                 
                 <div>
                   <label htmlFor="email" className="block text-sm font-medium text-white mb-2">
-                    Email Address
+                    HCT Email Address *
                   </label>
                   <input
                     type="email"
                     id="email"
                     className="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-white"
-                    placeholder="Enter your email"
-                  />
-                </div>
-                
-                <div>
-                  <label htmlFor="subject" className="block text-sm font-medium text-white mb-2">
-                    Subject
-                  </label>
-                  <input
-                    type="text"
-                    id="subject"
-                    className="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-white"
-                    placeholder="Enter subject"
+                    placeholder="Enter your HCT email"
+                    required
                   />
                 </div>
                 
@@ -124,7 +140,7 @@ export default function Contact() {
                   </label>
                   <textarea
                     id="message"
-                    rows="5"
+                    rows="4"
                     className="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-white"
                     placeholder="Enter your message"
                   ></textarea>

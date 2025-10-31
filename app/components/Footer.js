@@ -14,7 +14,7 @@ export default function Footer() {
         <div className="flex justify-center space-x-6 text-sm text-gray-400">
           <div className="flex items-center">
             <Mail className="h-4 w-4 mr-1" />
-            s.al.mansoori@hct.ac.ae
+            H00538223@hct.ac.ae
           </div>
           <div className="flex items-center">
             <Phone className="h-4 w-4 mr-1" />
@@ -22,7 +22,7 @@ export default function Footer() {
           </div>
         </div>
         <p className="text-gray-500 text-sm mt-4">
-          © 2025 Sarah Al Mansoori Learning Portfolio. All rights reserved.
+          © 2025 Mohamed Alzaabi Learning Portfolio. All rights reserved.
         </p>
       </div>
     </footer>

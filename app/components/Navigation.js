@@ -24,7 +24,7 @@ export default function Navigation() {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
               <BookOpen className="h-8 w-8 mr-3" />
-              <span className="font-bold text-xl">Sarah&apos;s Learning Portfolio</span>
+              <span className="font-bold text-xl">Alzaabi&apos;s Learning Portfolio</span>
             </div>
             
          
