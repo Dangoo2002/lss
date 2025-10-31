@@ -1,3 +1,4 @@
+
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
 import { Camera, FileText, Image, Activity, Map, Brain, Clock, Target } from 'lucide-react';
@@ -11,13 +12,15 @@ const weeklyTasks = [
         title: 'Course Learning Objectives & Assessment Strategy',
         description: 'Screenshot of Course Nearpod PDF slide 8',
         type: 'screenshot',
+        evidence: 'Course objectives and assessment strategy screenshots will be uploaded here',
         icon: Camera
       },
       {
         lesson: 'Lesson 2',
         title: 'Learning Style Assessment',
         description: 'VARK Questionnaire results screenshot',
-        type: 'screenshot',
+        type: 'screenshot', 
+        evidence: 'VARK learning style results will be displayed here',
         icon: Camera
       }
     ]
@@ -30,6 +33,7 @@ const weeklyTasks = [
         title: 'Information Management',
         description: 'Weekly schedule and OneDrive folder organization',
         type: 'screenshots',
+        evidence: 'Weekly schedule and organized folders will be shown here',
         icon: Camera
       },
       {
@@ -37,6 +41,7 @@ const weeklyTasks = [
         title: 'AI Tools Usage',
         description: 'Screenshot of AI tools used in daily life',
         type: 'screenshot',
+        evidence: 'AI tools and applications used will be documented here',
         icon: Camera
       }
     ]
@@ -49,13 +54,15 @@ const weeklyTasks = [
         title: 'SQ3R Reading Strategy',
         description: 'Completed worksheet screenshot or PDF',
         type: 'worksheet',
+        evidence: 'SQ3R reading strategy worksheet completion will be shown',
         icon: FileText
       },
       {
         lesson: 'Lesson 2',
         title: 'Bias Detector Poster',
-        description: 'Poster showing 3 signs of bias and 2 tips to avoid it',
+        description: 'Poster showing 3 signs of bias and 2 avoidance tips',
         type: 'poster',
+        evidence: 'Bias detection poster with key indicators will be displayed',
         icon: Image
       }
     ]
@@ -68,13 +75,15 @@ const weeklyTasks = [
         title: 'Notetaking with Copilot',
         description: 'Activity using AI for note-taking',
         type: 'activity',
+        evidence: 'AI-assisted note-taking examples will be provided here',
         icon: Activity
       },
       {
         lesson: 'Lesson 2',
-        title: 'Mind Mapping',
-        description: 'Mind maps for lists benefits and memory techniques',
+        title: 'Mind Mapping Activity',
+        description: 'Create a mind map showing benefits of lists OR memory techniques',
         type: 'mindmap',
+        evidence: 'Mind map visualizing learning techniques will be uploaded',
         icon: Map
       }
     ]
@@ -87,6 +96,7 @@ const weeklyTasks = [
         title: 'Reflection Sheet',
         description: '30-50 word reflection on learning',
         type: 'reflection',
+        evidence: 'Personal learning reflection will be written here',
         icon: Brain
       },
       {
@@ -94,6 +104,7 @@ const weeklyTasks = [
         title: 'Study Plan',
         description: 'Microsoft To-Do list screenshot',
         type: 'screenshot',
+        evidence: 'Weekly study plan and task organization will be shown',
         icon: Camera
       }
     ]
@@ -103,16 +114,18 @@ const weeklyTasks = [
     tasks: [
       {
         lesson: 'Lesson 1',
-        title: 'AI Ethics',
-        description: '3 sentences about AI critical usage',
+        title: 'AI Ethics Learning',
+        description: 'Write 3 sentences about what you learned from AI ethics lesson',
         type: 'writing',
+        evidence: 'Key insights about ethical AI usage will be shared here',
         icon: FileText
       },
       {
         lesson: 'Lesson 2',
-        title: 'No Task',
-        description: 'Assessment 1 - No additional task',
+        title: 'No Task - Assessment 1',
+        description: 'No additional task required this lesson',
         type: 'none',
+        evidence: 'No evidence required for this lesson',
         icon: Target
       }
     ]
@@ -123,15 +136,17 @@ const weeklyTasks = [
       {
         lesson: 'Lesson 1',
         title: 'Study Environment',
-        description: 'Photo of study space with description',
+        description: 'Photo of favorite study space with description',
         type: 'photo',
+        evidence: 'Personal study environment setup will be showcased here',
         icon: Image
       },
       {
         lesson: 'Lesson 2',
-        title: 'Goal Setting',
-        description: 'SMART or WOOP framework activity',
+        title: 'Goal Setting Framework',
+        description: 'SMART framework OR WOOP framework activity',
         type: 'framework',
+        evidence: 'Goal setting framework application will be demonstrated',
         icon: Target
       }
     ]
@@ -141,16 +156,18 @@ const weeklyTasks = [
     tasks: [
       {
         lesson: 'Lesson 1',
-        title: 'Time Management',
-        description: 'Time blocking schedule or Kanban board',
+        title: 'Time Management Strategy',
+        description: 'Time Blocking schedule (6AM-10PM) OR Kanban Board',
         type: 'schedule',
+        evidence: 'Time management system implementation will be displayed',
         icon: Clock
       },
       {
         lesson: 'Lesson 2',
         title: 'Digital Integrity',
-        description: 'Poster about academic integrity',
+        description: 'Create a Digital Integrity poster',
         type: 'poster',
+        evidence: 'Digital integrity principles poster will be presented here',
         icon: Image
       }
     ]
@@ -190,23 +207,18 @@ export default function WeeklyTasks() {
                       <h3 className="font-semibold text-lg text-white mb-2">{task.title}</h3>
                       <p className="text-gray-300 mb-4">{task.description}</p>
                       
-                      <div className="bg-gray-700 rounded-lg p-4 text-center">
-                        <div className="text-gray-400 text-sm mb-2">Evidence Placeholder</div>
-                        <div className="bg-gray-600 border-2 border-dashed border-gray-500 rounded p-8 text-center">
-                          <span className="text-gray-400">
-                            {task.type === 'screenshot' && 'Screenshot will be uploaded'}
-                            {task.type === 'screenshots' && 'Screenshots will be uploaded'}
-                            {task.type === 'worksheet' && 'Worksheet PDF/Image'}
-                            {task.type === 'poster' && 'Poster Image'}
-                            {task.type === 'activity' && 'Activity Results'}
-                            {task.type === 'mindmap' && 'Mind Map Image'}
-                            {task.type === 'reflection' && 'Reflection Text'}
-                            {task.type === 'writing' && 'Written Content'}
-                            {task.type === 'none' && 'No task required'}
-                            {task.type === 'photo' && 'Study Space Photo'}
-                            {task.type === 'framework' && 'Goal Framework'}
-                            {task.type === 'schedule' && 'Schedule Image'}
-                          </span>
+                      <div className="bg-gray-700 rounded-lg p-4">
+                        <div className="text-gray-400 text-sm mb-2">Evidence Description:</div>
+                        <p className="text-gray-300 text-sm mb-4">{task.evidence}</p>
+                        
+                        <div className="bg-gray-600 border-2 border-dashed border-gray-500 rounded p-6 text-center">
+                          <div className="text-gray-400 mb-2">Upload Area</div>
+                          <p className="text-gray-500 text-sm">
+                            {task.type === 'none' 
+                              ? 'No upload required for this task' 
+                              : 'Screenshot/Photo/Document will be uploaded here'
+                            }
+                          </p>
                         </div>
                       </div>
                     </div>
