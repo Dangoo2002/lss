@@ -1,7 +1,7 @@
 
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
-import { Award, CheckCircle, Star, Download } from 'lucide-react';
+import { Award, CheckCircle, Star, Download, Target } from 'lucide-react';
 
 export default function Achievements() {
   const certificates = [
