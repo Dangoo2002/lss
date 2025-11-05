@@ -11,7 +11,7 @@ const weeklyTasks = [
         title: 'Course Learning Objectives & Assessment Strategy',
         description: 'Screenshot of Course Nearpod PDF slide 8',
         type: 'screenshot',
-        evidence: 'Course objectives and assessment strategy screenshots will be uploaded here',
+        evidence: 'Understanding the course structure and assessment criteria helps me plan my learning journey effectively throughout the semester.',
         icon: Camera,
         imageUrl: 'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=500&h=300&fit=crop&crop=center'
       },
@@ -20,9 +20,9 @@ const weeklyTasks = [
         title: 'Learning Style Assessment',
         description: 'VARK Questionnaire results screenshot',
         type: 'screenshot', 
-        evidence: 'VARK learning style results will be displayed here',
+        evidence: 'Discovering I have a multimodal learning preference helps me tailor study methods that combine visual, reading, and kinesthetic approaches for better retention.',
         icon: Camera,
-        imageUrl: 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=500&h=300&fit=crop&crop=center'
+        imageUrl: 'https://imgv2-1-f.scribdassets.com/img/document/268685236/original/04226a6951/1?v=1'
       }
     ]
   },
@@ -34,18 +34,18 @@ const weeklyTasks = [
         title: 'Information Management',
         description: 'Weekly schedule and OneDrive folder organization',
         type: 'screenshots',
-        evidence: 'Weekly schedule and organized folders will be shown here',
+        evidence: 'Creating organized folders and a weekly schedule has significantly improved my productivity and reduced time spent searching for materials.',
         icon: Camera,
-        imageUrl: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500&h=300&fit=crop&crop=center'
+        imageUrl: 'https://www.smartsheet.com/sites/default/files/weekly-assignment-template.jpg'
       },
       {
         lesson: 'Lesson 2',
         title: 'AI Tools Usage',
         description: 'Screenshot of AI tools used in daily life',
         type: 'screenshot',
-        evidence: 'AI tools and applications used will be documented here',
+        evidence: 'Integrating AI tools like ChatGPT and Copilot into my daily routine has enhanced my research efficiency and provided valuable learning assistance.',
         icon: Camera,
-        imageUrl: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=500&h=300&fit=crop&crop=center'
+        imageUrl: 'https://images.unsplash.com/photo-1675865254433-6ba341f0f00b?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGFpJTIwY2hhdGJvdCUyMGludGVyZmFjZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500'
       }
     ]
   },
@@ -57,18 +57,18 @@ const weeklyTasks = [
         title: 'SQ3R Reading Strategy',
         description: 'Completed worksheet screenshot or PDF',
         type: 'worksheet',
-        evidence: 'SQ3R reading strategy worksheet completion will be shown',
+        evidence: 'The SQ3R method transformed my reading comprehension by providing a structured approach to survey, question, read, recite, and review academic materials.',
         icon: FileText,
-        imageUrl: 'https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?w=500&h=300&fit=crop&crop=center'
+        imageUrl: 'https://worksheets.clipart-library.com/images2/sq3r-reading-worksheet/sq3r-reading-worksheet-0.png'
       },
       {
         lesson: 'Lesson 2',
         title: 'Bias Detector Poster',
         description: 'Poster showing 3 signs of bias and 2 avoidance tips',
         type: 'poster',
-        evidence: 'Bias detection poster with key indicators will be displayed',
+        evidence: 'Creating this poster helped me recognize emotional language, one-sided arguments, and unsupported claims as key bias indicators while learning to verify sources and seek multiple perspectives.',
         icon: Image,
-        imageUrl: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=300&fit=crop&crop=center'
+        imageUrl: 'https://klutch.app/wp-content/uploads/2022/08/image3.jpg'
       }
     ]
   },
@@ -80,16 +80,16 @@ const weeklyTasks = [
         title: 'Notetaking with Copilot',
         description: 'Activity using AI for note-taking',
         type: 'activity',
-        evidence: 'AI-assisted note-taking examples will be provided here',
+        evidence: 'Using Copilot for note-taking improved my ability to organize key points systematically and generate comprehensive summaries from complex information.',
         icon: Activity,
-        imageUrl: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=500&h=300&fit=crop&crop=center'
+        imageUrl: 'https://support.microsoft.com/images/en-us/76608811-fee3-4d94-8476-fa96d74d5671'
       },
       {
         lesson: 'Lesson 2',
         title: 'Mind Mapping Activity',
         description: 'Create a mind map showing benefits of lists OR memory techniques',
         type: 'mindmap',
-        evidence: 'Mind map visualizing learning techniques will be uploaded',
+        evidence: 'Mind mapping revealed how visual organization enhances memory retention and helps create meaningful connections between different concepts and ideas.',
         icon: Map,
         imageUrl: 'https://images.unsplash.com/photo-1591696205602-2f950c417dad?w=500&h=300&fit=crop&crop=center'
       }
@@ -103,18 +103,18 @@ const weeklyTasks = [
         title: 'Reflection Sheet',
         description: '30-50 word reflection on learning',
         type: 'reflection',
-        evidence: 'Personal learning reflection will be written here',
+        evidence: 'This course has fundamentally changed my approach to learning. I now understand my preferred learning styles and have implemented effective time management strategies that make studying more focused and productive.',
         icon: Brain,
-        imageUrl: 'https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=500&h=300&fit=crop&crop=center'
+        imageUrl: null
       },
       {
         lesson: 'Lesson 2',
         title: 'Study Plan',
         description: 'Microsoft To-Do list screenshot',
         type: 'screenshot',
-        evidence: 'Weekly study plan and task organization will be shown',
+        evidence: 'Implementing a structured study plan using Microsoft To-Do has helped me prioritize tasks, meet deadlines consistently, and maintain better balance between academic and personal commitments.',
         icon: Camera,
-        imageUrl: 'https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=500&h=300&fit=crop&crop=center'
+        imageUrl: 'https://www.microsoft.com/en-us/garage/wp-content/uploads/2017/05/Student_Planner_1-1.png'
       }
     ]
   },
@@ -126,7 +126,7 @@ const weeklyTasks = [
         title: 'AI Ethics Learning',
         description: 'Write 3 sentences about what you learned from AI ethics lesson',
         type: 'writing',
-        evidence: 'Key insights about ethical AI usage will be shared here',
+        evidence: 'I learned that AI systems can inherit biases from training data, making critical evaluation essential. Responsible AI usage requires understanding privacy implications and using these tools as assistants rather than replacements for original thinking.',
         icon: FileText,
         imageUrl: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=500&h=300&fit=crop&crop=center'
       },
@@ -135,9 +135,9 @@ const weeklyTasks = [
         title: 'No Task - Assessment 1',
         description: 'No additional task required this lesson',
         type: 'none',
-        evidence: 'No evidence required for this lesson',
+        evidence: 'This week focused on completing Assessment 1, allowing dedicated time for comprehensive review and submission of major coursework requirements.',
         icon: Target,
-        imageUrl: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=300&fit=crop&crop=center'
+        imageUrl: null
       }
     ]
   },
@@ -149,18 +149,18 @@ const weeklyTasks = [
         title: 'Study Environment',
         description: 'Photo of favorite study space with description',
         type: 'photo',
-        evidence: 'Personal study environment setup will be showcased here',
+        evidence: 'My organized study space with minimal distractions and good lighting creates an optimal learning environment. I prefer starting with a clean desk and all necessary materials within reach.',
         icon: Image,
-        imageUrl: 'https://images.unsplash.com/photo-1589998059171-988d887df646?w=500&h=300&fit=crop&crop=center'
+        imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScxFSrcxfGu4_jGveruQgThcS1jr1HZbshbA&s'
       },
       {
         lesson: 'Lesson 2',
         title: 'Goal Setting Framework',
         description: 'SMART framework OR WOOP framework activity',
         type: 'framework',
-        evidence: 'Goal setting framework application will be demonstrated',
+        evidence: 'Applying the SMART framework helped me set specific, measurable goals for improving my grades and developing professional skills with clear timelines and actionable steps.',
         icon: Target,
-        imageUrl: 'https://images.unsplash.com/photo-1553877522-43269d4ea984?w=500&h=300&fit=crop&crop=center'
+        imageUrl: 'https://www.risely.me/wp-content/uploads/2023/08/ezgif.com-gif-maker-26-1024x576.webp'
       }
     ]
   },
@@ -172,18 +172,18 @@ const weeklyTasks = [
         title: 'Time Management Strategy',
         description: 'Time Blocking schedule (6AM-10PM) OR Kanban Board',
         type: 'schedule',
-        evidence: 'Time management system implementation will be displayed',
+        evidence: 'Time blocking transformed my daily productivity by allocating specific periods for focused study, breaks, and personal activities, reducing procrastination and ensuring balanced time allocation.',
         icon: Clock,
-        imageUrl: 'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=500&h=300&fit=crop&crop=center'
+        imageUrl: 'https://images.highfile.com/wp-content/uploads/2024/12/Weekly-Time-Blocking-Schedule-Template-Google-Docs-Word.png?strip=all&lossy=1&quality=90&webp=90&sharp=1&ssl=1'
       },
       {
         lesson: 'Lesson 2',
         title: 'Digital Integrity',
         description: 'Create a Digital Integrity poster',
         type: 'poster',
-        evidence: 'Digital integrity principles poster will be presented here',
+        evidence: 'Designing this poster reinforced the importance of academic honesty, proper citation practices, and ethical use of digital resources in maintaining educational integrity.',
         icon: Image,
-        imageUrl: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=300&fit=crop&crop=center'
+        imageUrl: 'https://static.wixstatic.com/media/0315c4_f4baeecb6e8249d7881b86ffefe280c9~mv2.png/v1/fill/w_360,h_494,al_c,q_85,enc_auto/0315c4_f4baeecb6e8249d7881b86ffefe280c9~mv2.png'
       }
     ]
   }
@@ -232,17 +232,19 @@ export default function WeeklyTasks() {
                               <div className="text-gray-400 mb-2">No upload required for this task</div>
                               <p className="text-gray-500 text-sm">Assessment week - focus on your main assignment</p>
                             </div>
+                          ) : task.type === 'reflection' ? (
+                            <div className="p-6">
+                              <div className="text-white text-lg mb-3">📝 Personal Reflection</div>
+                              <p className="text-gray-300 text-sm leading-relaxed">
+                                {task.evidence}
+                              </p>
+                            </div>
                           ) : (
-                            <>
-                              <img 
-                                src={task.imageUrl} 
-                                alt={task.title}
-                                className="w-full h-48 object-cover rounded mb-2"
-                              />
-                              <div className="text-gray-400 text-sm p-2">
-                                Sample image - Replace with your actual work
-                              </div>
-                            </>
+                            <img 
+                              src={task.imageUrl} 
+                              alt={task.title}
+                              className="w-full h-48 object-cover rounded mb-2"
+                            />
                           )}
                         </div>
                       </div>
