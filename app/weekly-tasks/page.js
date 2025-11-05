@@ -91,7 +91,7 @@ const weeklyTasks = [
         type: 'mindmap',
         evidence: 'Mind mapping revealed how visual organization enhances memory retention and helps create meaningful connections between different concepts and ideas.',
         icon: Map,
-        imageUrl: 'https://images.unsplash.com/photo-1591696205602-2f950c417dad?w=500&h=300&fit=crop&crop=center'
+        imageUrl: 'https://blog.alexanderfyoung.com/content/images/2022/05/image-1.png'
       }
     ]
   },
