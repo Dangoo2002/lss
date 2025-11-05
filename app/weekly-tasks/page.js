@@ -13,7 +13,7 @@ const weeklyTasks = [
         type: 'screenshot',
         evidence: 'Understanding the course structure and assessment criteria helps me plan my learning journey effectively throughout the semester.',
         icon: Camera,
-        imageUrl: 'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=500&h=300&fit=crop&crop=center'
+        imageUrl: '/3.jpeg'
       },
       {
         lesson: 'Lesson 2',
