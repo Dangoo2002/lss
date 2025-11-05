@@ -1,6 +1,6 @@
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
-import { Camera, FileText, Image, Activity, Map, Brain, Clock, Target } from 'lucide-react';
+import { Camera, FileText, Image as ImageIcon, Activity, Map, Brain, Clock, Target } from 'lucide-react';
 
 const weeklyTasks = [
   {
@@ -72,7 +72,7 @@ const weeklyTasks = [
         description: 'Poster showing 3 signs of bias and 2 avoidance tips',
         type: 'poster',
         evidence: 'Bias detection poster with key indicators will be displayed',
-        icon: Image,
+        icon: ImageIcon,
         contentType: 'image',
         content: 'https://www.allsides.com/sites/default/files/styles/large/public/allsides-bias-chart-v10-trans-optimized.png'
       }
@@ -160,7 +160,7 @@ const weeklyTasks = [
         description: 'Photo of favorite study space with description',
         type: 'photo',
         evidence: 'Personal study environment setup will be showcased here',
-        icon: Image,
+        icon: ImageIcon,
         contentType: 'image',
         content: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'
       },
@@ -195,7 +195,7 @@ const weeklyTasks = [
         description: 'Create a Digital Integrity poster',
         type: 'poster',
         evidence: 'Digital integrity principles poster will be presented here',
-        icon: Image,
+        icon: ImageIcon,
         contentType: 'image',
         content: 'https://img.freepik.com/free-vector/cyber-security-poster-template_1284-34347.jpg'
       }
@@ -243,12 +243,13 @@ export default function WeeklyTasks() {
                               src={task.content} 
                               alt={task.title} 
                               className="w-full max-h-64 object-cover rounded mx-auto" 
-                              onError={(e) => { e.target.style.display = 'none'; e.target.nextSibling.style.display = 'block'; }}
                             />
-                          ) : (
+                          ) : task.contentType === 'text' ? (
                             <div className="text-gray-300 text-sm p-4 bg-gray-700 rounded">
                               <p>{task.content}</p>
                             </div>
+                          ) : (
+                            <p className="text-gray-500 text-sm">Screenshot/Photo/Document will be uploaded here</p>
                           )}
                         </div>
                       </div>
