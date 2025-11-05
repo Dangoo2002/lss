@@ -1,6 +1,6 @@
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
-import { Camera, FileText, Image as ImageIcon, Activity, Map, Brain, Clock, Target } from 'lucide-react';
+import { Camera, FileText, Image, Activity, Map, Brain, Clock, Target } from 'lucide-react';
 
 const weeklyTasks = [
   {
@@ -13,18 +13,16 @@ const weeklyTasks = [
         type: 'screenshot',
         evidence: 'Course objectives and assessment strategy screenshots will be uploaded here',
         icon: Camera,
-        contentType: 'image',
-        content: 'https://slidemodel.com/wp-content/uploads/2024/02/Learning-Objectives-Examples-788x444.png'
+        imageUrl: 'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=500&h=300&fit=crop&crop=center'
       },
       {
         lesson: 'Lesson 2',
         title: 'Learning Style Assessment',
         description: 'VARK Questionnaire results screenshot',
-        type: 'screenshot',
+        type: 'screenshot', 
         evidence: 'VARK learning style results will be displayed here',
         icon: Camera,
-        contentType: 'image',
-        content: 'https://vark-learn.com/wp-content/uploads/2014/08/VARK-Results-Graph.png'
+        imageUrl: 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=500&h=300&fit=crop&crop=center'
       }
     ]
   },
@@ -38,8 +36,7 @@ const weeklyTasks = [
         type: 'screenshots',
         evidence: 'Weekly schedule and organized folders will be shown here',
         icon: Camera,
-        contentType: 'image',
-        content: 'https://www.template.net/wp-content/uploads/2020/07/Weekly-Schedule-Example.jpg'
+        imageUrl: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500&h=300&fit=crop&crop=center'
       },
       {
         lesson: 'Lesson 2',
@@ -48,8 +45,7 @@ const weeklyTasks = [
         type: 'screenshot',
         evidence: 'AI tools and applications used will be documented here',
         icon: Camera,
-        contentType: 'image',
-        content: 'https://blog.hootsuite.com/wp-content/uploads/2023/03/chatgpt-screenshot.png'
+        imageUrl: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=500&h=300&fit=crop&crop=center'
       }
     ]
   },
@@ -63,8 +59,7 @@ const weeklyTasks = [
         type: 'worksheet',
         evidence: 'SQ3R reading strategy worksheet completion will be shown',
         icon: FileText,
-        contentType: 'image',
-        content: 'https://pressbooks.bccampus.ca/studystrategizesucceed/wp-content/uploads/sites/349/2021/03/SQ3R-Template.png'
+        imageUrl: 'https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?w=500&h=300&fit=crop&crop=center'
       },
       {
         lesson: 'Lesson 2',
@@ -72,9 +67,8 @@ const weeklyTasks = [
         description: 'Poster showing 3 signs of bias and 2 avoidance tips',
         type: 'poster',
         evidence: 'Bias detection poster with key indicators will be displayed',
-        icon: ImageIcon,
-        contentType: 'image',
-        content: 'https://www.allsides.com/sites/default/files/styles/large/public/allsides-bias-chart-v10-trans-optimized.png'
+        icon: Image,
+        imageUrl: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=300&fit=crop&crop=center'
       }
     ]
   },
@@ -88,8 +82,7 @@ const weeklyTasks = [
         type: 'activity',
         evidence: 'AI-assisted note-taking examples will be provided here',
         icon: Activity,
-        contentType: 'image',
-        content: 'https://learn.microsoft.com/en-us/windows/ai/media/notes-sample-app-summary.png'
+        imageUrl: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=500&h=300&fit=crop&crop=center'
       },
       {
         lesson: 'Lesson 2',
@@ -98,8 +91,7 @@ const weeklyTasks = [
         type: 'mindmap',
         evidence: 'Mind map visualizing learning techniques will be uploaded',
         icon: Map,
-        contentType: 'image',
-        content: 'https://www.meistertask.com/wp-content/uploads/2019/09/mind-map-examples-for-students-1.jpg'
+        imageUrl: 'https://images.unsplash.com/photo-1591696205602-2f950c417dad?w=500&h=300&fit=crop&crop=center'
       }
     ]
   },
@@ -113,8 +105,7 @@ const weeklyTasks = [
         type: 'reflection',
         evidence: 'Personal learning reflection will be written here',
         icon: Brain,
-        contentType: 'text',
-        content: 'This course has helped me understand my learning style better. I now use time blocking and the SQ3R method, which has made my study sessions more focused and effective.'
+        imageUrl: 'https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=500&h=300&fit=crop&crop=center'
       },
       {
         lesson: 'Lesson 2',
@@ -123,8 +114,7 @@ const weeklyTasks = [
         type: 'screenshot',
         evidence: 'Weekly study plan and task organization will be shown',
         icon: Camera,
-        contentType: 'image',
-        content: 'https://assets.onestore.ms/cdnmedia/screenshots/to-do/en-us/to-do_pc_02_1024x768.png'
+        imageUrl: 'https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=500&h=300&fit=crop&crop=center'
       }
     ]
   },
@@ -138,8 +128,7 @@ const weeklyTasks = [
         type: 'writing',
         evidence: 'Key insights about ethical AI usage will be shared here',
         icon: FileText,
-        contentType: 'text',
-        content: 'I learned that AI can have bias based on its training data. It\'s important to use AI as a tool for help, not to copy its work directly. I also need to be careful not to share private information with AI tools.'
+        imageUrl: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=500&h=300&fit=crop&crop=center'
       },
       {
         lesson: 'Lesson 2',
@@ -147,7 +136,8 @@ const weeklyTasks = [
         description: 'No additional task required this lesson',
         type: 'none',
         evidence: 'No evidence required for this lesson',
-        icon: Target
+        icon: Target,
+        imageUrl: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=300&fit=crop&crop=center'
       }
     ]
   },
@@ -160,9 +150,8 @@ const weeklyTasks = [
         description: 'Photo of favorite study space with description',
         type: 'photo',
         evidence: 'Personal study environment setup will be showcased here',
-        icon: ImageIcon,
-        contentType: 'image',
-        content: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'
+        icon: Image,
+        imageUrl: 'https://images.unsplash.com/photo-1589998059171-988d887df646?w=500&h=300&fit=crop&crop=center'
       },
       {
         lesson: 'Lesson 2',
@@ -171,8 +160,7 @@ const weeklyTasks = [
         type: 'framework',
         evidence: 'Goal setting framework application will be demonstrated',
         icon: Target,
-        contentType: 'text',
-        content: 'Specific: Improve my grade in Math. Measurable: Achieve at least 85% on the next exam. Achievable: I will study for 1 hour daily. Relevant: This is crucial for my degree. Time-bound: The exam is in 4 weeks.'
+        imageUrl: 'https://images.unsplash.com/photo-1553877522-43269d4ea984?w=500&h=300&fit=crop&crop=center'
       }
     ]
   },
@@ -186,8 +174,7 @@ const weeklyTasks = [
         type: 'schedule',
         evidence: 'Time management system implementation will be displayed',
         icon: Clock,
-        contentType: 'image',
-        content: 'https://clockify.me/blog/wp-content/uploads/2024/06/time-blocking-template-1.png'
+        imageUrl: 'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=500&h=300&fit=crop&crop=center'
       },
       {
         lesson: 'Lesson 2',
@@ -195,9 +182,8 @@ const weeklyTasks = [
         description: 'Create a Digital Integrity poster',
         type: 'poster',
         evidence: 'Digital integrity principles poster will be presented here',
-        icon: ImageIcon,
-        contentType: 'image',
-        content: 'https://img.freepik.com/free-vector/cyber-security-poster-template_1284-34347.jpg'
+        icon: Image,
+        imageUrl: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=300&fit=crop&crop=center'
       }
     ]
   }
@@ -207,10 +193,12 @@ export default function WeeklyTasks() {
   return (
     <>
       <Navigation />
+      
       <main className="min-h-screen py-12">
         <div className="max-w-6xl mx-auto px-4">
           <h1 className="text-4xl font-bold text-center text-white mb-4">My Weekly Tasks</h1>
           <p className="text-center text-gray-300 mb-12">Complete collection of work from Weeks 1-8</p>
+          
           <div className="space-y-8">
             {weeklyTasks.map((weekData) => (
               <div key={weekData.week} className="card">
@@ -220,6 +208,7 @@ export default function WeeklyTasks() {
                   </span>
                   Week {weekData.week}
                 </h2>
+                
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   {weekData.tasks.map((task, taskIndex) => (
                     <div key={taskIndex} className="border border-gray-700 rounded-lg p-6 hover:shadow-md transition duration-200">
@@ -229,27 +218,31 @@ export default function WeeklyTasks() {
                         </span>
                         <task.icon className="h-6 w-6 text-white" />
                       </div>
+                      
                       <h3 className="font-semibold text-lg text-white mb-2">{task.title}</h3>
                       <p className="text-gray-300 mb-4">{task.description}</p>
+                      
                       <div className="bg-gray-700 rounded-lg p-4">
                         <div className="text-gray-400 text-sm mb-2">Evidence Description:</div>
                         <p className="text-gray-300 text-sm mb-4">{task.evidence}</p>
-                        <div className="bg-gray-600 border-2 border-dashed border-gray-500 rounded p-6 text-center">
-                          <div className="text-gray-400 mb-2">Upload Area</div>
+                        
+                        <div className="bg-gray-600 border-2 border-dashed border-gray-500 rounded p-2 text-center overflow-hidden">
                           {task.type === 'none' ? (
-                            <p className="text-gray-500 text-sm">No upload required for this task</p>
-                          ) : task.contentType === 'image' ? (
-                            <img 
-                              src={task.content} 
-                              alt={task.title} 
-                              className="w-full max-h-64 object-cover rounded mx-auto" 
-                            />
-                          ) : task.contentType === 'text' ? (
-                            <div className="text-gray-300 text-sm p-4 bg-gray-700 rounded">
-                              <p>{task.content}</p>
+                            <div className="p-6">
+                              <div className="text-gray-400 mb-2">No upload required for this task</div>
+                              <p className="text-gray-500 text-sm">Assessment week - focus on your main assignment</p>
                             </div>
                           ) : (
-                            <p className="text-gray-500 text-sm">Screenshot/Photo/Document will be uploaded here</p>
+                            <>
+                              <img 
+                                src={task.imageUrl} 
+                                alt={task.title}
+                                className="w-full h-48 object-cover rounded mb-2"
+                              />
+                              <div className="text-gray-400 text-sm p-2">
+                                Sample image - Replace with your actual work
+                              </div>
+                            </>
                           )}
                         </div>
                       </div>
@@ -261,6 +254,7 @@ export default function WeeklyTasks() {
           </div>
         </div>
       </main>
+      
       <Footer />
     </>
   );
